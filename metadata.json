@@ -1,0 +1,7 @@
+{
+  "name": "Aan Alma Khanafi - Software Engineer Portfolio",
+  "description": "Interactive portfolio website for Aan Alma Khanafi, a Backend Developer specializing in Laravel, Node.js, and Cloud Computing.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
