@@ -7,7 +7,7 @@ export const PROJECTS: Project[] = [
     description: 'A powerful Kanban Board application to visualize workflow, manage tasks, and streamline team collaboration in real-time.',
     duration: 'April 2025 - Juli 2025',
     image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&q=80&w=1000',
-    link: 'https://kollab-test-vercel.app',
+    link: 'https://kollab-test.vercel.app',
     tags: ['React', 'Node.js', 'WebSockets', 'Tailwind CSS']
   },
   {
