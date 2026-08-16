@@ -19,6 +19,9 @@ import {
 } from 'lucide-react';
 import { PROJECTS, EXPERIENCES, SKILLS } from './constants';
 
+import { Mail, Github, Linkedin, Download } from 'lucide-react'; // Pastikan import Download
+import { motion } from 'framer-motion';
+
 const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -367,6 +370,7 @@ const Contact = () => {
           </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+            {/* Tombol Email */}
             <a 
               href="mailto:aanalma03@gmail.com" 
               className="w-full md:w-auto px-10 py-5 bg-emerald-500 text-white font-bold rounded-full hover:bg-emerald-400 transition-all shadow-lg shadow-emerald-500/20 flex items-center justify-center gap-3"
@@ -374,6 +378,18 @@ const Contact = () => {
               <Mail size={20} />
               Send an Email
             </a>
+
+            {/* Tombol Download CV */}
+            <a 
+              href="https://drive.google.com/uc?export=download&id=1L3vqjaTbfhPyphQyQ2_bEga5QmtIQCnE" 
+              target="_blank" 
+              rel="noreferrer"
+              className="w-full md:w-auto px-10 py-5 bg-zinc-900 text-white font-bold rounded-full hover:bg-zinc-800 transition-all border border-white/5 flex items-center justify-center gap-3"
+            >
+              <Download size={20} />
+              Download CV
+            </a>
+
             <div className="flex gap-4">
               <a href="https://github.com/aanalma28" target="_blank" rel="noreferrer" className="p-5 rounded-full bg-zinc-900 text-white hover:bg-zinc-800 transition-all border border-white/5">
                 <Github size={24} />
