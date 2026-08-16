@@ -381,7 +381,7 @@ const Contact = () => {
 
             {/* Tombol Download CV */}
             <a 
-              href="https://drive.google.com/uc?export=download&id=1L3vqjaTbfhPyphQyQ2_bEga5QmtIQCnE" 
+              href="https://drive.google.com/file/d/1L3vqjaTbfhPyphQyQ2_bEga5QmtIQCnE/view?usp=sharing" 
               target="_blank" 
               rel="noreferrer"
               className="w-full md:w-auto px-10 py-5 bg-zinc-900 text-white font-bold rounded-full hover:bg-zinc-800 transition-all border border-white/5 flex items-center justify-center gap-3"
